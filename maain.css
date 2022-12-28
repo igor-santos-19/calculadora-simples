@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(107, 115, 121);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    font-family: Arial, Helvetica, sans-serif;  
+    color: white;
+}
+.conteudo{
+ width: 300px;
+ height: 300px;
+ background-color: rgb(87, 87, 233);
+ padding: 3em;
+ text-align: center;
+ border-radius: 1.3em;
+}
+#resultado{
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+button{
+    background-color: rgb(70, 70, 189);
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+}
+button:hover{
+    background-color: rgb(48, 48, 129);
+    transition: 0.5s;
+}
